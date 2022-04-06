@@ -1,0 +1,56 @@
+form
+{
+    text-align: center;
+    border: 2px solid Blue;
+    border-radius: 20px; 
+    margin: 10px;
+}
+.name{
+    margin: 10px;
+}
+.gender{
+    padding-right: 318px;
+    margin: 10px;
+}
+.dob{
+    padding-right: 275px;
+    margin: 10px;
+}
+.mn{
+    padding-right: 220px;
+    margin: 10px;
+}
+.door
+{
+    padding-right: 269px;
+    margin: 10px;
+    
+}
+.address{
+    padding-right:60px;
+    margin: 10px;
+}
+.pincode{
+    padding-right: 270px;
+    margin: 10px;
+}
+.aadhar{
+    padding-right: 260px;
+    margin: 10px
+}
+.pincode{
+    padding-right: 260px;
+    margin: 10px
+}
+.pass{
+    padding-right: 260px;
+    margin: 10px
+}
+.reps{
+    margin: 10px;
+    padding-right: 220px
+}
+.but{
+    margin: 70px;
+    padding-right: 40px;
+}

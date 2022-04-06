@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form validation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <h1 style="text-align:center;">FORM VALIDATION USING JAVASCRIPT</h1>
+        <form>
+            <div class="name">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="finame" >
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="laname"><br>
+            </div>
+            <div class="gender">
+                <p style="display:inline;">Gender:</p>
+                <input type="radio" id="male" name="sex" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="sex" value="female">
+                <label for="male">Female</label>
+            </div>
+            <div class="dob">
+                <p style="display:inline;">Date Of Birth</p>
+                <input type="date" id="daob" name="daob">
+            </div>
+            <div class="mn">
+                <label for="mon">Mobile Number:</label>
+                <input type="text" id="mon" name="mon">
+            </div>
+            <div class="door">
+                <label for="dor">Door No.</label> 
+                <input type="text" id="dor" name="dor"><br>
+            </div>
+            <div class="address">
+                <label for="adr" >Address:</label>
+                <textarea id="adr" name="adr" rows="4" cols="50">
+                </textarea><br>
+            </div>
+            <div class="pincode">
+                <label for="pin">Pin Code:</label> 
+                <input type="text" id="pin" name="pin"><br>
+            </div>
+            <div class="aadhar">
+                <label for="aad">Aadhar No:</label> 
+                <input type="text" id="aad" name="aad">
+            </div>
+            <div class="pass">
+                <label for="pas">Password:</label> 
+                <input type="password" id="pas" name="pas"><br>
+            </div>
+            <div class="reps">
+                <label  id="pus"for="repas">Retype Password:</label> 
+                <input type="password" id="repas" name="repas">
+            </div>
+            <div class="but">
+                <input type="submit" value="submit">
+                <input type="reset">
+            </div>
+        </form>
+    </body>
+</html>
